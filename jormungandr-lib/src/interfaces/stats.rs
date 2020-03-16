@@ -8,6 +8,7 @@ pub struct Stats {
     pub node_id: Option<String>,
     pub peer_total_cnt: Option<u32>,
     pub peer_available_cnt: Option<u32>,
+    pub peer_connected_cnt: Option<u32>,
     pub peer_quarantined_cnt: Option<u32>,
     pub peer_unreachable_cnt: Option<u32>,
     pub tx_recv_cnt: Option<u32>,
