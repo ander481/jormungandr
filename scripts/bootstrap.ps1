@@ -260,10 +260,11 @@ initial:
 		write-host "genesis file generated: done" -ForegroundColor DarkGreen
 
 "storage: ""$STORAGE_PATH""
-log:
-  level: debug
-  format: plain
-  output: stderr
+log: [{
+  level: debug,
+  format: plain,
+  output: stderr,
+  }]
 rest:
   listen: ""127.0.0.1:48443""
 p2p:
